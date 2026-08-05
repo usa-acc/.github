@@ -29,7 +29,7 @@
     "contains_non_public_inventory": true,
     "digest": "sha256:f7e7f65fe29e26125d3746663dffa2f5e3df2b23bcdef52fa269b2145bcee45d",
     "path": "owners/usa-acc.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [
     {
