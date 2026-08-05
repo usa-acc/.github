@@ -1,10 +1,106 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:07:32Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:6fba074af201784e4a0ba67eb1386df976cadb563f5d88f5af7cf5cb651ce400",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 3,
+    "private_repositories_omitted": true,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "usa-acc/.github",
+    "github_id": "292932113",
+    "linear_project": {
+      "id": "ed1f5d4e-4a8e-47e4-9149-0be068a07cbe",
+      "name": "github.com/usa-acc",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomusa-acc-112232184d74",
+      "workspace": "denman"
+    },
+    "login": "usa-acc",
+    "mapping_id": "context:usa-acc"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": true,
+    "digest": "sha256:f7e7f65fe29e26125d3746663dffa2f5e3df2b23bcdef52fa269b2145bcee45d",
+    "path": "owners/usa-acc.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [
+    {
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "kind": "github-owner-membership",
+          "source": "GitHub GraphQL repository inventory"
+        }
+      ],
+      "from": "usa-acc/.github",
+      "id": "sha256:a1cc2a6f1e99fab63baadcb09e069bd57654506c96582d7cb8f1007ebea55f03",
+      "notes": "Organization .github policy and community-health defaults govern this sibling repository.",
+      "required": true,
+      "scope": "organization",
+      "status": "declared",
+      "to": "usa-acc/usa-acc.github.io",
+      "type": "governs"
+    },
+    {
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "kind": "repository-name",
+          "value": "usa-acc.github.io"
+        }
+      ],
+      "from": "usa-acc/usa-acc.github.io",
+      "id": "sha256:5e2d152e77b8a8cfd2473d02b8ffe0d237a91a6088482ec295e8851d9df8909a",
+      "notes": "The conventional *.github.io repository documents the organization profile.",
+      "required": false,
+      "scope": "organization",
+      "status": "inferred",
+      "to": "usa-acc/.github",
+      "type": "documents"
+    }
+  ],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "usa-acc/.github",
+      "github_id": "1324048171",
+      "name": ".github",
+      "owner": "usa-acc",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/usa-acc/.github",
+      "visibility": "public"
+    },
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "usa-acc/usa-acc.github.io",
+      "github_id": "1213991170",
+      "name": "usa-acc.github.io",
+      "owner": "usa-acc",
+      "roles": [
+        "documentation-site"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/usa-acc/usa-acc.github.io",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "usa-acc",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }
