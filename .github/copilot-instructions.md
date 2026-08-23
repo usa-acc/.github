@@ -52,6 +52,8 @@ Do not use destructive commands merely to make tests pass, clear a conflict, sim
 
 Use additive branches, separate clean worktrees or clones, explicit path staging, ordinary commits, non-force pushes, patch-based edits, read-only queries, dry runs, backups, additive migrations, and reversible roll-forward changes. Leave unrelated work untouched. When safe progress is impossible, preserve all state and report the exact blocker.
 
+For branch integration, avoid git rebase in favor of git merge so shared history remains append-only and reviewable.
+
 ## Source ownership and cross-repository context
 
 Edit authoritative sources rather than generated mirrors, vendored copies, caches, or downstream consumers. Identify generators and regenerate derived artifacts from reviewed sources. Never detach, absorb, relocate, remove, or rewrite a submodule or worktree. Cross-repository behavior must be understood across the owning organization and relevant external organizations before contracts are changed.
