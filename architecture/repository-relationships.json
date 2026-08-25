@@ -22,7 +22,7 @@
   },
   "organization": "usa-acc",
   "privacy": {
-    "private_repository_count": 3,
+    "private_repository_count": 15,
     "private_repository_names_published": false,
     "public_repository_names_published": true,
     "reason": "The public .github registry intentionally withholds private repository names and edges."
