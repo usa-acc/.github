@@ -45,3 +45,11 @@ Mark non-applicable checks as `N/A` with a reason.
 List exact commands, checks, fixtures, test-org and hosted-CI links, migration or
 drift results, manual verification, known limitations, deferred repositories,
 and follow-up work.
+
+## Salvage check
+
+If this PR supersedes or replaces an older one, say which, and name at least one
+concrete thing carried forward from it (a test, a fixture, an error message, a
+pin, a doc paragraph). See [`docs/pr-salvage-policy.md`](../docs/pr-salvage-policy.md).
+
+- [ ] Supersedes nothing, **or** the salvaged item is named above.
